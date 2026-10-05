@@ -1,0 +1,11 @@
+[versions]
+gson = "2.13.2"
+
+# plugins
+createcloud-plugin-builder = "2.0.0"
+
+[libraries]
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+[plugins]
+createcloud-plugin-builder = { id = "org.createcloud.plugin-builder", version.ref = "createcloud-plugin-builder" }
